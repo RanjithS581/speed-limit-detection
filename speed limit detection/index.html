@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Car Speed Controller</title>
+</head>
+<body>
+    <div class="background-image"></div> <!-- A new div for the webpage background image -->
+    <div class="speedometer">
+        <div class="background-image-speedometer"></div> <!-- A new div for the speedometer background image -->
+        <div class="indicator">
+            <div class="speed" id="speed">0</div>
+            <div class="unit">km/h</div>
+        </div>
+        <div class="notification" id="notification"></div>
+        <div class="needle" id="needle"></div>
+        <div class="controls">
+            <button id="accelerator">Accelerate</button>
+            <button id="brake">Brake</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <audio id="notification-sound" src="alarm.mp3"></audio>
+</body>
+</html>
